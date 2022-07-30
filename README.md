@@ -15,6 +15,7 @@ Our model predicts the IS_SUCCESSFUL column, using its [NAME,	APPLICATION_TYPE,	
 
 Three hidden layers of cascading neuron amounts were chosen to model this data. The first two hidden layers have activation functions relu then tanh; these were chosen after evaluating the models' loss and accuracy against similar functions like linear and sigmoid. The third hidden layer doesn't add much dimensionally- since it uses the same relu activation function; however, it does reduce the number of important features and subsequently the amount of noise in the model.<br/><br/>
 <img width="445" alt="Screen Shot 2022-07-30 at 11 15 13 AM" src="https://user-images.githubusercontent.com/79609464/181934465-58879c40-73f8-467d-91b3-8b9d9261bc16.png">
+<br/><br/>
  This model was able to achieve an accuracy of 79.25% with a loss of 44.65%; we were able to get an overfitted model with 80.2% accuracy, however, the loss was greater than 1. The biggest factor in this model's accuracy was how you choose to bin categorical data<br /><br/>
 
 ## Summary
