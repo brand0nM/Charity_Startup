@@ -1,4 +1,4 @@
-# Neural_Network
+# Charity Startup
 ## Overview
 Alphabet Soup is a business that provides funding for non-profit charities; Our task is to create a binary classifier that predicts whether an application will be successful or not
 
